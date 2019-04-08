@@ -13,6 +13,10 @@ body {
     flex: 1 !important;
 }
 
+.about .jumbotron {
+    text-align: center !important;
+}
+
 .header {
     height: 70vh;
     background: linear-gradient(45deg, rgba(82, 155, 232, 0.7), rgba(0, 0, 0, 0.8)), url('/images/head.jpg');
@@ -36,7 +40,7 @@ body {
     color: #fff !important;
 }
 
-.jumbotron  {
+.header .jumbotron  {
     text-align: right !important;
     background: none !important;
     position: absolute;
@@ -45,11 +49,11 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.jumbotron h1 {
+.header .jumbotron h1 {
     color: #efefef !important;
 }
 
-.jumbotron p {
+.header .jumbotron p {
     color: #529be8 !important;
 }
 
@@ -73,4 +77,27 @@ a:hover {
 
 .skills .card-deck {
     padding: 10px !important;
+}
+
+.backend-skills .card-deck {
+    padding: 10px !important;
+}
+
+.construction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+
+.construction h1 {
+    font-size: 10rem;
+    color: #529be8;
+}
+
+.construction h2 {
+    font-size: 2rem;
+    color: #529be8;
+    text-align: center;
 }
